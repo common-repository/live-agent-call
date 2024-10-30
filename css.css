@@ -1,0 +1,894 @@
+.mypage-alo-phone {
+    position: fixed !important;
+    bottom: 0px!important;
+    display:static;
+    background-color: transparent;
+    width: 110px;
+    height: 110px;
+    cursor: pointer;
+    z-index: 900000 !important;
+    margin-left: 85%;
+}
+ @media screen and (max-width:650px){
+	.mypage-alo-phone  {display:block!important;}
+}
+.animated.infinite {
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+.mypage-alo-ph-circle {
+    width: 90px;
+    height: 90px;
+    top: 12px;
+    left: 12px;
+    position: absolute;
+    background-color: transparent;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    border: 2px solid rgba(30, 30, 30, 0.4);
+    opacity: .1;
+    opacity: .5;
+}
+.zoomIn {
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+}
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.mypage-alo-ph-circle-fill {
+    width: 60px;
+    height: 60px;
+    top: 28px;
+    left: 28px;
+    position: absolute;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    border: 2px solid transparent;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    opacity: .4 !important;
+}
+.mypage-alo-ph-img-circle {
+    width: 30px;
+    height: 30px;
+    top: 43px;
+    left: 43px;
+    position: absolute;
+    background: rgba(30, 30, 30, 0.1) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABNmlDQ1BQaG90b3Nob3AgSUNDIHByb2ZpbGUAAHjarY6xSsNQFEDPi6LiUCsEcXB4kygotupgxqQtRRCs1SHJ1qShSmkSXl7VfoSjWwcXd7/AyVFwUPwC/0Bx6uAQIYODCJ7p3MPlcsGo2HWnYZRhEGvVbjrS9Xw5+8QMUwDQCbPUbrUOAOIkjvjB5ysC4HnTrjsN/sZ8mCoNTIDtbpSFICpA/0KnGsQYMIN+qkHcAaY6addAPAClXu4vQCnI/Q0oKdfzQXwAZs/1fDDmADPIfQUwdXSpAWpJOlJnvVMtq5ZlSbubBJE8HmU6GmRyPw4TlSaqo6MukP8HwGK+2G46cq1qWXvr/DOu58vc3o8QgFh6LFpBOFTn3yqMnd/n4sZ4GQ5vYXpStN0ruNmAheuirVahvAX34y/Axk/96FpPYgAAACBjSFJNAAB6JQAAgIMAAPn/AACA6AAAUggAARVYAAA6lwAAF2/XWh+QAAAB/ElEQVR42uya7W3CMBCG31QM4A1aNggTlG6QbpBMkHYC1AloJ4BOABuEDcgGtBOETnD9c1ERCH/lwxeaV8oPFGP86Hy+DxMREW5Bd7gRjSDSNGn4/RiAOvm8C0ZCRD5PSkQVXSr1nK/xE3mcWimA1ZV3JYBZCIO4giQANoYxMwYS6+xKY4lT5dJPreWZY+uspqSCKPYN27GJVBDXheVSQe494ksiEWTuMXcu1dld9SARxDX1OAJ4lgjy4zDnFsC076A4adEiRwAZg4hOUSpNoCsBPDGM+HqkNGynYBCuILuWj+dgWysGsNe8nwL4GsrW0m2fxZBq9rW0rNcX5MOQ9eZD8JFahcG5g/iKT671alGAYQggpYWvpEPYWrU/HDTOfeRIX0q2SL3QN4tGhZJukVobQyXYWw7WtLDKDIuM+ZSzscyCE9PCy5IttCvnZNaeiGLNHKuz8ZVh/MXTVu/1xQKmIqLEAuJ0fNo3iG5B51oSkeKnsBi/4bG9gYB/lCytU5G9DryFW+3Gm+JLwU7ehbJrwTjq4DJU8bHcVbEV9dXXqqP6uqO5e2/QZRYJpqu2IUAA4B3tXvx8hgKp05QZW6dJqrLTNkB6vrRURLRwPHqtYgkC3cLWQAcDQGGKH13FER/NATzi786+BPDNjm1dMkfjn2pGkBHkf4D8DgBJDuDHx9BN+gAAAABJRU5ErkJggg==
+) no-repeat center center;
+	
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    border: 2px solid transparent;
+    opacity: 1;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    background-size: 70%;
+}
+.tada {
+    -webkit-animation-name: tada;
+    animation-name: tada;
+}
+@-webkit-keyframes tada {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  10%, 20% {
+    -webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+  }
+
+  30%, 50%, 70%, 90% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+
+  40%, 60%, 80% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes tada {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  10%, 20% {
+    -webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+  }
+
+  30%, 50%, 70%, 90% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+
+  40%, 60%, 80% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+@-webkit-keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}  
+
+
+/***************** phone ***************/
+/*******************************************/
+
+
+
+/***************** phone ***************/
+/*******************************************/
+#middlephone {
+ position:fixed; top:6%; right:80px; width:40%; height:45%;
+}
+
+
+.upperlayercancel { float:right;
+    position:relative;
+    top:-10px;
+    right: -10px;  }
+
+/*
+.upperlayercancel { display:block; position:relative;  background:rgb(0,0,0,0.1); padding-right: 30px; color:black; height:15px; width:15px;float:right; font-size:30px; text-decoration:none; text-align:center; font-weight:bold; }*/
+
+#upperlayer{
+ position:fixed; top:50px; right:10px;background:rgba(0,0,0,0.1);
+ background-color:#2a2a2a;z-index:5;opacity: 0.95; border: 0px solid; 
+ width:80%; height:90%; display: none;
+}
+.incominglayer{
+     display: none  !important;
+    -moz-border-radius:28px !important;
+	-webkit-border-radius:28px !important;
+	border-radius:28px    !important;
+ position:fixed; top:80px; right:20%;background:rgb(0,0,0);
+ background-color:#2a2a2a;z-index:5;  border: 0px solid; 
+ width:35%; height:35%; display: block;
+}
+.incominglayercancel { float:right;
+    position:relative;
+    top:-10px;
+    right: -10px;  }
+
+.callconnectlayer{
+     display: none  !important;
+    -moz-border-radius:28px !important;
+	-webkit-border-radius:28px !important;
+	border-radius:28px    !important;
+ position:fixed; top:80px; right:20%;background:rgb(0,0,0);
+ background-color:#2a2a2a;z-index:5;  border: 0px solid; 
+ width:35%; height:35%; display: block;
+}
+.callconnectlayercancel { float:right;
+    position:relative;
+    top:-10px;
+    right: -10px;  }
+
+
+
+
+
+.contactimg{
+     display: none;
+    
+}
+
+
+
+#phone {
+    position: relative;
+    float: left;
+    width: 185px;
+    height: 250px;
+    padding: 0px 0px;
+    background-color: #606a7b;
+    border-radius: 0 0 10px 0;
+    margin-bottom: 10px;
+}
+
+#phone .line-separator {
+    clear: both;
+    height: 1px;
+/*    background: url("../images/dialpad-buttons-horizontal-separator.png") no-repeat;*/
+}
+#phone .line-separator-black {
+    clear: both;
+    height: 1px;
+/*    background: url("../images/dialpad-buttons-horizontal-separator-black.png") no-repeat;*/
+}
+/* status */
+#phone .status {
+    position: relative;
+    padding: 5px;
+    font-family: monospace;
+    /* width interno: 234px */
+    background: url("../images/transparent-50-bg.png") repeat;
+    border-radius: 5px;
+    color: #000;
+    opacity: 0.8;
+}
+
+#phone .status > div + div {
+    margin-top: 5px;
+}
+
+#phone .status span.field {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#phone .status span.value {
+    font-size: 12px;
+    font-weight: bold;
+}
+#phone .status #conn-status.connected span.value {
+    color: #C49300;
+}
+#phone .status #conn-status.registered span.value {
+    color: #008000;
+}
+#phone .status #conn-status.disconnected span.value {
+    color: #FF2200;
+}
+
+#phone .status input[type="checkbox"] {
+    position: relative;
+    top: 2px;
+}
+
+#phone .status span.value.user {
+    font-size: 14px;
+    color: #008000;
+}
+
+
+/* controls */
+#phone .controls {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+
+#phone .controls .ws-disconnected {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    background: #333;
+    border-radius: 5px;
+    z-index: 100;
+    display: none;
+}
+
+/* dialbox */
+
+#phone .dialbox {
+    position: relative;
+    font-family: monospace;
+}
+
+#phone .dialbox input.destination {
+    display: block;
+    position: relative;
+    width: 161px;
+    height: 35px;
+    line-height: 23px;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: bold;
+    color: red;
+    text-align: right;
+    letter-spacing: 1px;
+    background-color: white;
+    opacity: 1.9;
+    border-width: 1px;
+    border-style: solid;
+    border-image: initial;
+    margin: 0px;
+    outline: none;
+	border: 1px solid white;
+    border-radius: 5px;
+}
+#phone .dialbox input.destination:hover {
+    border-color: #EEE;
+}
+#phone .dialbox input.destination:focus {
+    border-color: #EEE;
+    opacity: 1;
+}
+
+#phone .dialbox .to {
+    position: absolute;
+    z-index: 10;
+    top: -4px;
+    padding-left: 8px;
+    height: 60px;
+    line-height: 40px;
+    font-size: 100%;
+    color: #FFF;
+    font-family: inherit;
+    opacity: 0.5;
+}
+.to{
+	color:#FF0000 !important;
+	opacity: 1 !important;
+	
+}
+#phone .dialbox .dial-buttons {
+    position: relative;
+    margin-top: 10px;
+}
+
+#phone .dialbox .dial-buttons .button {
+    height: 30px;
+    line-height: 30px;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #FFF;
+    opacity: 0.8;
+    letter-spacing: 5px;
+    text-align: center;
+    user-select: none;
+}
+#phone .dialbox .dial-buttons .button:hover {
+    color: #FFF;
+    opacity: 1;
+    text-shadow: #FFF 0px 0px 5px;
+}
+#phone .dialbox .dial-buttons .button:active {
+    color: #00FF00;
+}
+/* dialpad */
+
+#phone .dialpad {
+    position: relative;
+    margin-top: 10px;
+    user-select: none;
+}
+
+#phone .dialpad .line {
+    height: 30px;
+    user-select: none;
+}
+
+#phone .dialpad .button {
+    float: left;
+    height: 30px;
+    width: 50px;
+    color: #C0D1A9;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 25px;
+    text-align: center;
+    cursor: pointer;
+	margin:2px;
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+}
+.popup-bar{
+	background: rgba(0,0,0,0.1);
+    background-color: #4a4a4a;
+    z-index: 5;
+    opacity: 0.9;
+    width: 100%;
+    height: 10%;
+	text-align:center;
+	padding-bottom:28px;
+}
+.popup-bar h4{
+	margin:0px !important;
+	padding:5px 5px 5px 13px !important;
+	color:#FFFFFF;
+}
+#phone .dialpad .button:hover {
+    color: #44c767;
+}
+#phone .dialpad .button:active {
+    color: #00FF00;
+}
+
+.cancel { top:-4px; display:block; position:relative;  cursor:pointer; padding-right: 30px; color:red; height:15px; width:15px;float:right; font-size:30px; text-decoration:none; text-align:center; font-weight:bold; }
+
+#loginScreen {
+ position:fixed; top:0; left:0; background:rgba(0,0,0,0.1); background-color:lightgrey; z-index:5; width:100%; height:100%; display:none;
+ } 
+
+
+#toPopup {
+    position: fixed;
+    top: 70px;
+    right: 10px;
+    background: rgba(0,0,0,0.1);
+    background-color: #d0d7de;
+    z-index: 500;
+    opacity: 0.9;
+    border: 1px solid #b8d0f8;
+	border-radius:5px !important;
+    width: 40%;
+    height: 44%;
+    display: none;;
+}
+#customerPopup {
+    position: fixed;
+    top: 45%;
+    right: 35%;
+    background: rgba(0,0,0,0.1);
+    background-color: #bbc4ce;
+    z-index: 5000;
+    opacity: 0.8;
+    border: 1px solid #b8d0f8;
+    border-radius:5px !important;
+    width: 20%;
+    height: 10%;
+    display: none;;
+}
+#disconnectagentimg{
+    
+    margin-right: 40%;
+}
+
+.inc-popup{
+    width: 40%;
+    height: auto;
+    float: left;
+    display: block;
+}
+.inc-popup h2{
+    color: grey;
+    text-align: center;
+}
+.inc-popup ul{
+padding-left: 143px;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.inc-popup ul li{
+    list-style: none;
+    float: left;
+    margin-left: 5px;
+}
+   #submit {
+	background-color: #FF0000 !important;
+    -moz-border-radius: 28px !important;
+    -webkit-border-radius: 28px !important;
+    border-radius: 28px !important;
+    border: 1px solid #FF0000 !important;
+    display: inline-block !important;
+    cursor: pointer !important;
+    color: #ffffff !important;
+    font-family: Arial !important;
+    font-weight: bold;
+    font-size: 12px !important;
+    padding: 5px 29px !important;
+    text-decoration: none !important;
+    text-shadow: 0px 1px 0px #FF0000 !important;
+	}
+	#ua-invite-submit:hover{
+		background-color:#44c767;
+	}
+#toPopup:target, #toPopup:target + #loginScreen{ display:block; opacity:2; } 
+
+.phonebook{
+ float: right;
+ 
+}
+.phonebook h2{
+    color: grey;
+    text-align: center;
+}
+.ans{
+   background-color: green !important;
+    -moz-border-radius: 28px !important;
+    -webkit-border-radius: 28px !important;
+    border-radius: 28px !important;
+    border: 1px solid green !important;
+    display: inline-block !important;
+    cursor: pointer !important;
+    color: #ffffff !important;
+    font-family: Arial !important;
+    font-weight: bold;
+    font-size: 12px !important;
+    padding: 5px 10px !important;
+    text-decoration: none !important;
+    text-shadow: 0px 1px 0px green !important;
+}
+.dec{
+       background-color: #FF0000 !important;
+    -moz-border-radius: 28px !important;
+    -webkit-border-radius: 28px !important;
+    border-radius: 28px !important;
+    border: 1px solid #FF0000 !important;
+    display: inline-block !important;
+    cursor: pointer !important;
+    color: #ffffff !important;
+    font-family: Arial !important;
+    font-weight: bold;
+    font-size: 12px !important;
+    padding: 5px 10px !important;
+    text-decoration: none !important;
+    text-shadow: 0px 1px 0px #FF0000 !important;
+}
+.mut{
+       background-color:  green !important;
+    -moz-border-radius: 28px !important;
+    -webkit-border-radius: 28px !important;
+    border-radius: 28px !important;
+    border: 1px solid  green !important;
+    display: inline-block !important;
+    cursor: pointer !important;
+    color: #ffffff !important;
+    font-family: Arial !important;
+    font-weight: bold;
+    font-size: 12px !important;
+    padding: 5px 10px !important;
+    text-decoration: none !important;
+    text-shadow: 0px 1px 0px  green !important;
+}
+.trans{
+       background-color: #97c33d !important;
+    -moz-border-radius: 28px !important;
+    -webkit-border-radius: 28px !important;
+    border-radius: 28px !important;
+    border: 1px solid #97c33d !important;
+    display: inline-block !important;
+    cursor: pointer !important;
+    color: #ffffff !important;
+    font-family: Arial !important;
+    font-weight: bold;
+    font-size: 12px !important;
+    padding: 5px 10px !important;
+    text-decoration: none !important;
+    text-shadow: 0px 1px 0px #97c33d !important;
+}
+#templates {
+  
+    display: none;
+}
+#session-list {
+    float: right;
+    width: 50%;
+    margin: 0 10% 0 0;
+}
+
+.session {
+    clear: both;
+    display: block;
+    text-align: center;
+}
+
+.session h5 {
+    font-weight: lighter;
+  font-size: 80%;
+}
+
+.session h5 strong {
+    font-weight: lighter;
+  font-size: 80%;
+}
+
+.session .dtmf, .session .dtmf *{
+    display: inline-block;
+}
+
+.session .dtmf input[type="text"] {
+    width: 2em;
+    min-width: 0em;
+    text-align: center;
+}
+
+.session video {
+    display: block;
+    visibility: none;
+    height: 0;
+    max-width: 100%;
+}
+
+.session video.on {
+    visiblity: visible;
+    height: auto;
+}
+.session .messages {
+    max-height: 10em;
+    min-height: 2em;
+    overflow: auto;
+}
+
+.session .messages .local {
+    color: #5f7ee0;
+    clear: left;
+    float: right;
+    width: 50%;
+    text-align: right;
+    margin-right: 10%;
+}
+
+.session .messages .remote, .session .messages .error {
+    color: #00a53b;
+    clear: right;
+    float: left;
+    width: 50%;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.session .messages .error {
+    color: #ea4b35;
+}
+.phonebookbtn
+{
+	background-color:#ed8223;
+	color:#fff;
+	font-family:'Helvetica Neue',sans-serif;
+	font-size:18px;
+	line-height:30px;
+	border-radius:20px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	border:0;
+	text-shadow:#C17C3A 0 -1px 0;
+	width:120px;
+	height:32px
+
+
+}
+
+.anscallbtn {
+	background-color:#44c767 !important;
+	-moz-border-radius:28px !important;
+	-webkit-border-radius:28px !important;
+	border-radius:28px    !important;
+	border:1px solid #18ab29   !important;
+	display:inline-block   !important;
+	cursor:pointer !important;
+	color:#ffffff  !important;
+	font-family:Arial  !important;
+         font-weight: bold;
+	font-size:12px !important;
+	padding:10px 31px  !important;
+	text-decoration:none   !important;
+	text-shadow:0px 1px 0px #2f6627    !important;
+}
+.anscallbtn:hover {
+	background-color:#5cbf2a;
+}
+.anscallbtn:active {
+	position:relative;
+	top:1px;
+}
+
+
+.vansbtn {
+	background-color:#44c767 !important;
+	-moz-border-radius:28px !important;
+	-webkit-border-radius:28px !important;
+	border-radius:28px    !important;
+	border:1px solid #18ab29   !important;
+	display:inline-block   !important;
+	cursor:pointer !important;
+	color:#ffffff  !important;
+	font-family:Arial  !important;
+         font-weight: bold;
+	font-size:12px !important;
+	padding:10px 31px  !important;
+	text-decoration:none   !important;
+	text-shadow:0px 1px 0px #2f6627    !important;
+}
+.vansbtn:hover {
+	background-color:#5cbf2a;
+}
+.vansbtn:active {
+	position:relative;
+	top:1px;
+}
+
+
+.cancelcallbtn {
+	background-color:#FF0000 !important;
+	-moz-border-radius:28px !important;
+	-webkit-border-radius:28px !important;
+	border-radius:28px    !important;
+	border:1px solid 	#FF0000   !important;
+	display:inline-block   !important;
+	cursor:pointer !important;
+	color:#ffffff  !important;
+	font-family:Arial  !important;
+         font-weight: bold;
+	font-size:12px !important;
+	padding:10px 31px  !important;
+	text-decoration:none   !important;
+	text-shadow:0px 1px 0px #FF0000    !important;
+}
+.cancelcallbtn:hover {
+	background-color:#5cbf2a;
+}
+.cancelcallbtn:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+.connectholdbtn {
+	background-color:#44c767 !important;
+	-moz-border-radius:28px !important;
+	-webkit-border-radius:28px !important;
+	border-radius:28px    !important;
+	border:1px solid #18ab29   !important;
+	display:inline-block   !important;
+	cursor:pointer !important;
+	color:#ffffff  !important;
+	font-family:Arial  !important;
+         font-weight: bold;
+	font-size:12px !important;
+	padding:10px 31px  !important;
+	text-decoration:none   !important;
+	text-shadow:0px 1px 0px #2f6627    !important;
+}
+.connectholdbtn:hover {
+	background-color:#5cbf2a;
+}
+.connectholdbtn:active {
+	position:relative;
+	top:1px;
+}
+.connecttransferbtn {
+	background-color:#44c767 !important;
+	-moz-border-radius:28px !important;
+	-webkit-border-radius:28px !important;
+	border-radius:28px    !important;
+	border:1px solid #18ab29   !important;
+	display:inline-block   !important;
+	cursor:pointer !important;
+	color:#ffffff  !important;
+	font-family:Arial  !important;
+         font-weight: bold;
+	font-size:12px !important;
+	padding:10px 31px  !important;
+	text-decoration:none   !important;
+	text-shadow:0px 1px 0px #2f6627    !important;
+}
+.connecttransferbtn:hover {
+	background-color:#5cbf2a;
+}
+.connecttransferbtn:active {
+	position:relative;
+	top:1px;
+}
+
+
+.connectendbtn {
+	background-color:#FF0000 !important;
+	-moz-border-radius:28px !important;
+	-webkit-border-radius:28px !important;
+	border-radius:28px    !important;
+	border:1px solid 	#FF0000   !important;
+	display:inline-block   !important;
+	cursor:pointer !important;
+	color:#ffffff  !important;
+	font-family:Arial  !important;
+         font-weight: bold;
+	font-size:12px !important;
+	padding:10px 31px  !important;
+	text-decoration:none   !important;
+	text-shadow:0px 1px 0px #FF0000    !important;
+}
+.connectendbtn:hover {
+	background-color:#5cbf2a;
+}
+.connectendbtn:active {
+	position:relative;
+	top:1px;
+}
+.btnclass {
+    font-size:12px !important;
+    width: 80px;
+ text-align: center;
+}
+.phonebookbtn
+{
+	background-color:#ed8223;
+	color:#fff;
+	font-family:'Helvetica Neue',sans-serif;
+	font-size:18px;
+	line-height:30px;
+	border-radius:20px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	border:0;
+	text-shadow:#C17C3A 0 -1px 0;
+	width:120px;
+	height:32px
+
+
+}
+.phonechildbtn{
+background-color: #0099CC; /* Blue background color */
+border-radius: 30px; /* Curve of border corners */
+text-transform: uppercase; /* Make letters uppercase */
+color: white; /* Text color */
+}
